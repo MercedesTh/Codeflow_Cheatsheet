@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee&family=Bungee+Inline&family=Bungee+Shade&family=Moo+Lah+Lah&family=Press+Start+2P&family=Rubik+Beastly&family=Turret+Road&family=Wallpoet&display=swap');
+
+/* font-family: 'Audiowide', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Moo Lah Lah', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Rubik Beastly', cursive;
+font-family: 'Turret Road', cursive;
+font-family: 'Wallpoet', cursive; */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #947BD3;
+}
+
+article{
+    text-align: center;
+    margin: 5% 0 0 0;
+}
+
+h2{
+    font-family: 'Turret Road', cursive;
+    font-size: 3.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFE2D1;
+    display: inline-block;
+}
+
+a{
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 10rem;
+    color: #d16014;
+    text-transform: uppercase;
+    font-weight: 50;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    color: #7fffd4;
+}
+
+ul{
+    margin: 10%;
+    list-style: none;
+}
+
+li{
+    font-family: 'Turret Road', cursive;
+    font-size: 2rem;
+    color: #FFE2D1;
+    font-weight: 400;
+    padding-bottom: 5%;
+}
+
+li p{
+    margin-left: 4.5%;
+}
+
+i{
+    font-size: 2rem;
+    color: #070707;
+}

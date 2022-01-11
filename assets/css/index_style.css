@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee&family=Bungee+Inline&family=Bungee+Shade&family=Moo+Lah+Lah&family=Press+Start+2P&family=Rubik+Beastly&family=Turret+Road&family=Wallpoet&display=swap');
+
+/* font-family: 'Audiowide', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Moo Lah Lah', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Rubik Beastly', cursive;
+font-family: 'Turret Road', cursive;
+font-family: 'Wallpoet', cursive; */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #7fffd4;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Rubik Beastly', cursive;
+    font-weight: 400;
+    font-size: 10rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #d16014;
+    margin-top: 10%;
+}
+
+a{
+    font-family: 'Turret Road', cursive;
+    font-size: 3.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #d16014;
+    display: block;
+    text-decoration: none;
+    margin-top: 5%;
+}
+
+a:hover{
+    color: #947BD3;
+}
+
