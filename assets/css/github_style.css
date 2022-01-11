@@ -20,14 +20,14 @@ body{
     background: #FFE2D1;
 }
 
-article{
+header{
     text-align: center;
     margin: 5% 0 0 0;
 }
 
 h2{
     font-family: 'Turret Road', cursive;
-    font-size: 3.3rem;
+    font-size: 5rem;
     text-transform: uppercase;
     text-align: center;
     color: #947BD3 ;
@@ -49,23 +49,59 @@ a:hover{
 }
 
 ul{
-    margin: 10%;
+    margin: 12% 10% 10% 10%;
     list-style: none;
 }
 
 li{
     font-family: 'Turret Road', cursive;
-    font-size: 2rem;
-    color: #947BD3 ;
-    font-weight: 400;
+    font-size: 3rem;
+    color: #947BD3;
     padding-bottom: 5%;
 }
 
 li p{
-    margin-left: 4.5%;
+    margin: 3% 0 6% 5.5%;
+    font-size: 2rem;
 }
 
 i{
+    font-size: 6rem;
+    color: #070707;
+    padding-right: 3.4%;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    font-size: 9.5rem;
+}
+
+footer a:nth-of-type(even){
+    font-family: 'Turret Road', cursive;
     font-size: 2rem;
+    text-transform: uppercase;
+    color: #FFE2D1;
+    padding-top: 8.5%;
+    margin: 0 2% 3% 2%;
+}
+
+footer a:nth-of-type(2):hover{
+    color: #947BD3;
+}
+
+footer a:nth-of-type(odd):hover{
+    color: #d16014;
+}
+
+footer a:nth-of-type(odd):hover + a:nth-of-type(even){
+    color: #947BD3;
+}
+
+footer a:nth-of-type(even)::before{
+    content: "► ► ► ";
+    font-size: 3rem;
     color: #070707;
 }
